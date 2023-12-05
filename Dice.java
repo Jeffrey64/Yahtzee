@@ -1,14 +1,20 @@
 
 public class Dice
 {
-
-    Die6 Die1;
+    
+    Die6 Die1; 
     Die6 Die2;
-
+    Die6 Die3;
+    Die6 Die4;
+    Die6 Die5;
+    
     public Dice()
     {
         Die1 = new Die6();
         Die2 = new Die6();
+        Die3 = new Die6();
+        Die4 = new Die6();
+        Die5 = new Die6();
     }
 
     public void roll() { 
@@ -22,6 +28,6 @@ public class Dice
 
     public int rollAndGetValue() {
         roll();
-        return getValue();
+        return getvalue();
     }
 }

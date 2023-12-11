@@ -23,7 +23,7 @@ public class Dice
         Die5.roll();
     }
 
-    public int getValue() {
+    public int summarize() {
         return Die1.getValue()+Die2.getValue();
     }
 

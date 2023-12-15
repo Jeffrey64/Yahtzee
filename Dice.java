@@ -29,6 +29,6 @@ public class Dice
 
     public int rollAndGetValue() {
         roll();
-        return getvalue();
+        return getValue();
     }
 }

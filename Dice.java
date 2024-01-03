@@ -24,11 +24,16 @@ public class Dice
     }
 
     public int summarize() {
-        return Die1.getValue()+Die2.getValue();
+        return Die1.getValue();
+        return Die2.getValue();
+        return Die3.getValue();
+        return Die4.getValue();
+        return Die5.getValue();
+        
     }
 
     public int rollAndGetValue() {
         roll();
-        return getValue();
+        return getvalue();
     }
 }

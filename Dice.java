@@ -24,11 +24,17 @@ public class Dice
     }
 
     public int summarize() {
-        return Die1.getValue();
-        return Die2.getValue();
-        return Die3.getValue();
-        return Die4.getValue();
-        return Die5.getValue();
+        if (dieNumber = 1) {
+            this.Die1.roll();
+        if (dieNumber = 2) {
+            this.Die2.roll();
+        if (dieNumber = 3) {
+            this.Die3.roll();
+        }
+        
+            
+        }
+        }
         
     }
 
